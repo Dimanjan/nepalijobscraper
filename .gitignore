@@ -1,0 +1,148 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Scraped data (sensitive)
+data/raw/
+data/processed/
+data/exports/
+*.csv
+*.json
+!config/*.json
+
+# Analytics outputs
+analytics/reports/data/
+analytics/reports/visualizations/
+analytics/reports/logs/
+analytics/reports/*.html
+analytics/reports/*.pdf
+analytics/reports/*.xlsx
+analytics/dashboards/static/uploads/
+
+# Logs
+logs/
+*.log
+
+# Test files (temporary)
+test/*.html
+test/debug_*
+test/temp_*
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# Selenium drivers
+chromedriver
+geckodriver
+*.exe
+drivers/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+# pytest
+.pytest_cache/
+
+# Security and credentials
+.env
+.env.local
+.env.production
+.env.staging
+secrets.json
+credentials.json
+config/secrets.json
+
+# Cache directories
+.cache/
+.parcel-cache/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Analytics cache and model files
+analytics/cache/
+*.pkl
+*.pickle
+models/
+
+# Flask instance folder
+instance/
+
+# Machine learning models
+*.model
+*.joblib
+*.h5
+*.hdf5
+
+# Large data files
+*.parquet
+*.feather
+data/*.zip
+data/*.tar.gz
+data/*.rar
+
+# Documentation builds
+docs/_build/
+docs/build/
+site/ 
